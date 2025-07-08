@@ -1,22 +1,28 @@
 {
-  "name": "eazylanding_vue",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "emailjs-com": "^3.2.0",
-    "vue": "^3.5.17"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.0",
-    "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.8.3",
-    "vite": "^7.0.3",
-    "vue-tsc": "^2.2.12"
-  }
+    "name": "eazylanding_vue",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "homepage": "https://gaigerov.github.io/eazylanding_vue/",
+    "dependencies": {
+        "emailjs-com": "3.2.0",
+        "vue": "^3.5.17"
+    },
+    "devDependencies": {
+        "@types/node": "24.0.11",
+        "@vitejs/plugin-vue": "6.0.0",
+        "@vue/tsconfig": "0.7.0",
+        "gh-pages": "6.3.0",
+        "sass-embedded": "1.89.2",
+        "typescript": "~5.8.3",
+        "vite": "7.0.3",
+        "vue-tsc": "2.2.12"
+    }
 }
