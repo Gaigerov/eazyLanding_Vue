@@ -16,7 +16,14 @@ useScrollAnimation();
                 :class="styles.item"
                 :style="{'transition-delay': `${(i % 3) * 0.1}s`}"
             >
-                <!-- Изображение или контент -->
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
+                <img src="../../images/DSC_7452.webp" alt="family" :class="styles.photo"/>
             </div>
         </div>
     </section>
